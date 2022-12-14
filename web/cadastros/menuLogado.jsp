@@ -1,5 +1,5 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<h1>Módilo Cadastros</h1>
+<h1>Módulo Cadastros</h1>
 <h2>Menu Principal - Logado: ${sessionScope.nomeusuario} - ${sessionScope.tipousuario} -
     <a href="${pageContext.request.contextPath}/UsuarioDeslogar">Sair do Sistema</a></h2>
 <c:if test="${sessionScope.tipousuario == 'Administrador'}">
